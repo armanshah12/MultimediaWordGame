@@ -1,0 +1,61 @@
+#container {
+    width: 810px;
+    height: 650px;
+    margin: 0px auto;
+}
+
+#hint {
+    width: 200px;
+    height: 600px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+#letters {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    float: right;
+}
+
+.individual {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 25px;
+    text-align: center;
+    margin: 3px;
+}
+
+.word-search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.letter {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 24px;
+    margin: 2px;
+}
+
+.words-list {
+    margin-top: 20px;
+}
+
+.word {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
