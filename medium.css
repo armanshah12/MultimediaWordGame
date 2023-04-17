@@ -3,9 +3,8 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font: 50px;
     text-align: center;
-    color: white;
 }
 
 .puzzleWrap {
@@ -14,7 +13,7 @@ h1 {
 
 audio {
     float: right;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 p {
@@ -28,22 +27,17 @@ p {
     margin-left: 400px;
 }
 
-a:link,
-a:active {
-    color: black;
-}
-
 
 /**
 * Styles for the puzzle
 */
 
 #puzzle {
-    padding: 20px;
+    padding: 10px;
     float: left;
     margin: 30px 20px;
-    width: 1000px;
-    height: 610px;
+    width: 1100px;
+    height: 670px;
     border: 1px solid black;
     background: #eddee2;
 }
@@ -57,13 +51,13 @@ a:active {
 /* style for each square in the puzzle */
 
 #puzzle .puzzleSquare {
-    height: 105px;
-    width: 165px;
+    height: 75px;
+    width: 120px;
     text-transform: uppercase;
     background-color: transparent;
     border: 0;
     outline: none;
-    font: 70px sans-serif;
+    font: 35px sans-serif;
     color: black;
 }
 
@@ -101,13 +95,14 @@ button::-moz-focus-inner {
 
 #puzzle .solved {
     color: yellow;
+    border-radius: 25px;
 }
 
 
 /* indicates that all words have been found */
 
 #puzzle .complete {
-    background-color: #eddee2;
+    background-color: green;
 }
 
 
@@ -124,22 +119,22 @@ button::-moz-focus-inner {
 
 #words ul {
     list-style-type: none;
-    font: 50px sans-serif;
+    font: 25px sans-serif;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
     padding-top: 20px;
-    height: 573px;
-    width: 220px;
-    text-align: center;
+    height: 638px;
+    width: 200px;
+    text-align: left;
     background: #eddee2;
     margin-left: 50px;
 }
 
 #words li {
     padding: 0 0 40px;
-    font: 50px sans-serif;
-    float: right;
+    font: 29px sans-serif;
+    float: left;
     width: 100px;
     color: black;
 }
@@ -158,16 +153,17 @@ button::-moz-focus-inner {
 */
 
 #solve {
-    margin-top: 626px;
+    margin-top: 665px;
     margin-right: auto;
-    margin-left: 150px;
-    margin-bottom: 100px;
+    margin-left: 70px;
+    margin-bottom: 60px;
     background: #eddee2;
     color: black;
     padding: 10px 20px;
     border: 2px solid black;
     transition: opacity .25s ease-in;
     font-size: 30px;
+    float: right;
 }
 
 #home {
@@ -180,6 +176,7 @@ button::-moz-focus-inner {
     float: left;
     width: 260px;
     font-size: 24px;
+    text-align: center;
 }
 
 #solve:hover,

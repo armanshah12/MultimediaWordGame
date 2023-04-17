@@ -798,17 +798,15 @@
 }(document, jQuery, wordfind));
 
 $(function() {
-    var words = ["EASY", "CAKE", "MUSIC", "FOOD", "BAD", "GOOD", "DRINK", "EAT", "SLEEP", "TREE", "WALK", "RUN", "DRIVE", "MAIL", "HOTEL", "CAT", "DOG", "BEACH", "CLASS",
-        "TRIP", "GRADE", "TALK"
-    ];
-    var selectedWords = words.sort(() => 0.5 - Math.random()).slice(0, 6);
+    var words = ["SCHOOL", "RANCH", "GLOVE", "LOVE", "GOOGLE", "APPLE", "EPOCH", "NOTORIOUS", "OPTIMIST", "WALRUS", "TISSUE", "AMASS", "ASTRONOMY", "PHYSICS", "BLUNT", "CRITIQUE", "URBAN", "COLONY", "NEGATIVE", "POSITIVE", "CONTENT", "IMPLY", "STABLE", "ADEPT", "NIMBLE", "AGILE"];
+    var selectedWords = words.sort(() => 0.5 - Math.random()).slice(0, 9);
     // start a word find game
     var gamePuzzle = wordfindgame.create(
         selectedWords,
         '#puzzle',
         '#words', {
-            height: 6,
-            width: 6,
+            height: 9,
+            width: 9,
             fillBlanks: true
         });
     $('#solve').click(function() {
@@ -816,7 +814,7 @@ $(function() {
     });
     // create just a puzzle, without filling in the blanks and print to console
     var puzzle = wordfind.newPuzzle(
-        words, { height: 6, width: 6, fillBlanks: true }
+        words, { height: 9, width: 9, fillBlanks: true }
     );
     wordfind.print(puzzle);
 });
