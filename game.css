@@ -1,3 +1,35 @@
 body {
     background-image: url('wordsearch1.png');
 }
+
+img {
+    margin-left: 500px;
+}
+
+#home {
+    margin: 30px 30px 0 20px;
+    background: white;
+    color: black;
+    padding: 15px 20px;
+    border: 2px solid black;
+    transition: opacity .25s ease-in;
+    float: left;
+    width: 260px;
+    font-size: 35px;
+}
+
+#ehome {
+    margin: 30px 30px 0 auto;
+    background: white;
+    color: black;
+    padding: 15px 20px;
+    border: 2px solid black;
+    transition: opacity .25s ease-in;
+    float: left;
+    width: 260px;
+    font-size: 35px;
+}
+
+.pa {
+    padding-top: 100px;
+}

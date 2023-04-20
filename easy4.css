@@ -100,7 +100,7 @@ button::-moz-focus-inner {
 }
 
 #puzzle .solved {
-    color: yellow;
+    color: #806600;
 }
 
 
@@ -158,7 +158,7 @@ button::-moz-focus-inner {
 */
 
 #solve {
-    margin-top: 626px;
+    margin-top: 644px;
     margin-right: auto;
     margin-left: 150px;
     margin-bottom: 100px;
@@ -179,7 +179,7 @@ button::-moz-focus-inner {
     transition: opacity .25s ease-in;
     float: left;
     width: 260px;
-    font-size: 24px;
+    font-size: 35px;
 }
 
 #solve:hover,
